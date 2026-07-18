@@ -34,6 +34,8 @@ the convention, even though SmartSet itself is tolerant.
   `cbrk`, `apos`, `tilde`, `/`, `\`, etc. Discovered empirically: `{.}{.}`
   emitted nothing, `{per}{per}` emitted `..`. Single letters and digits are the
   exception — `{a}`, `{2}`, etc. type as-is.
+- **`{tilde}` sends bare backtick (no shift)** — on US International this is
+  dead grave, not dead tilde. To trigger dead tilde use `{-lshft}{tilde}{+lshft}`.
 - `fn <rule>` prefix — the rule applies only while the **Fn** key is held.
   Non-prefixed rules apply on the base layer. Both layers must be remapped
   independently; skipping the `fn` line leaves the Fn-layer key at default.
