@@ -29,6 +29,11 @@ the convention, even though SmartSet itself is tolerant.
   fires F11 at speed 5, repeat 1. `{s5}` = macro speed, `{x1}` = repeat
   count, `-lwin`/`+lwin` = hold/release a modifier within the sequence
   (`-` = downstroke/hold, `+` = upstroke/release).
+- **Macro body tokens must use the Dictionary names** — a literal `.` inside
+  `{...}` does not type a period; `{per}` does. Same for `com`, `hyph`, `obrk`,
+  `cbrk`, `apos`, `tilde`, `/`, `\`, etc. Discovered empirically: `{.}{.}`
+  emitted nothing, `{per}{per}` emitted `..`. Single letters and digits are the
+  exception — `{a}`, `{2}`, etc. type as-is.
 - `fn <rule>` prefix — the rule applies only while the **Fn** key is held.
   Non-prefixed rules apply on the base layer. Both layers must be remapped
   independently; skipping the `fn` line leaves the Fn-layer key at default.
