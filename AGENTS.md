@@ -27,14 +27,23 @@ the convention, even though SmartSet itself is tolerant.
 - `{src}>{...}` — macro/sequence action. Brace body holds timing/repeat
   modifiers and a token sequence; e.g. `{hk1}>{s5}{x1}{F11}` means hotkey 1
   fires F11 at speed 5, repeat 1. `{s5}` = macro speed, `{x1}` = repeat
-  count, `-lwin`/`+lwin` = temporarily release/hold a modifier within the
-  sequence.
+  count, `-lwin`/`+lwin` = hold/release a modifier within the sequence
+  (`-` = downstroke/hold, `+` = upstroke/release).
 - `fn <rule>` prefix — the rule applies only while the **Fn** key is held.
   Non-prefixed rules apply on the base layer. Both layers must be remapped
   independently; skipping the `fn` line leaves the Fn-layer key at default.
 - Hex/source keys use SmartSet names: `hk1`..`hk10` (hotkeys), `prnt`,
   `scrlk`, `hyph`, `colon`, `per`, `com`, `obrk`, `cbrk`, `apos`, `rspc`,
   `bspc`, etc. Output tokens use the Dictionary in `README.md`.
+- **Physical key for `hk9` is the Fn key.** Binding a remap or macro to
+  `hk9` reprograms the Fn key itself, which disables `fn`-prefixed rules in
+  that layout (the Fn layer becomes unreachable). The factory default
+  layouts use `[hk9]>[fnshf]` to rebind Fn → Fn-Shift for their numpad
+  overlay — a deliberate transformation, not a free trigger slot. Do not
+  use `hk9` as a macro/hotkey trigger in any layout that relies on its
+  `fn`-prefixed rules. `hk10` is the adjacent free special-key slot (likely
+  the Print Screen / Fn-Shift key — physical location is undocumented in
+  the manual text; verify on the keyboard before relying on it).
 - Modifier swaps (`[lwin]>[lalt]`, `[lalt]>[lwin]`, etc.) are how this repo
   adapts a layout between macOS and Linux layouts — see `layout1.txt`
   (Mac-oriented) vs `layout2.txt` (no swap) for the pattern.

@@ -4,7 +4,8 @@
 {hk2}>{s5}{x1}{-alt}{tab}{+alt}
 [hyph]>[obrk]
 [=]>[cbrk]
-{rctrl}{=}>{s8}{x1}{-shift}{i}{n}{g}{+shift}{u}{i}{-shift}{b}{+shift}{a}{-shift}{l}{i}{u}{+shift}{x}{-shift}{i}{2}{+shift}{4}{0}{0}{4}
+* Password macro (decoded): TorontoBogota2026.. — trigger: Fn + hk10
+fn {hk10}>{s8}{x1}{-shift}{t}{+shift}{o}{r}{o}{n}{t}{o}{-shift}{b}{+shift}{o}{g}{o}{t}{a}{2}{0}{2}{6}{.}{.}
 {hk3}>{s5}{x1}{-ctrl}{a}{+ctrl}
 {hk4}>{s5}{x1}{-ctrl}{z}{+ctrl}
 [q]>[apos]
