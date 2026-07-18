@@ -56,3 +56,21 @@ the convention, even though SmartSet itself is tolerant.
 There is no in-repo validator. Edits are verified **only** by loading the
 files onto the keyboard via the Kinesis SmartSet Editor and testing the
 keys. Do not claim a change "works" from a diff alone.
+
+## Switching layouts on the physical keyboard
+
+- **Tap the Layout Key** (in the Programming Cluster) to cycle through the
+  three primary slots: 1 → 2 → 3 → 1. The two Layout LEDs indicate which of
+  these three is active:
+  - Layout 1: no LED lit
+  - Layout 2: right LED lit
+  - Layout 3: both LEDs lit
+- **To jump directly to any slot 1–9**: hold `SmartSet` + tap the number-row
+  key `1`–`9`. Example: `SmartSet` + `4` loads `layout4.txt`.
+- **Confirm the active slot**: open a text editor and run a Status Report
+  (`SmartSet` + `F7`). The `Active Layout>` line reports the slot number.
+  This is the authoritative check — the on-disk filename alone is not proof
+  that the firmware has loaded that slot.
+- Source: Freestyle Pro User Manual v1.0.536, §4.1 ("Layouts"). A markdown
+  conversion of the full manual is kept at `docs/freestyle-pro-user-manual.md`
+  for reference.
