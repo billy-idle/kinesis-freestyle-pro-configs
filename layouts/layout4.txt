@@ -1,8 +1,68 @@
+[caps]>[esc]
+[esc]>[caps]
 {hk1}>{s5}{x1}{-lwin}{d}{+lwin}
-{hk2}>{s5}{x1}{-lalt}{tab}{+lalt}
-{hk3}>{s5}{x1}{-lctrl}{a}{+lctrl}
-{hk4}>{s5}{x1}{-lctrl}{z}{+lctrl}
-{hk5}>{s5}{x1}{-lctrl}{x}{+lctrl}
+{hk2}>{s5}{x1}{-alt}{tab}{+alt}
+[hyph]>[obrk]
+[=]>[cbrk]
+{rctrl}{=}>{s8}{x1}{-shift}{i}{n}{g}{+shift}{u}{i}{-shift}{b}{+shift}{a}{-shift}{l}{i}{u}{+shift}{x}{-shift}{i}{2}{+shift}{4}{0}{0}{4}
+{hk3}>{s5}{x1}{-ctrl}{a}{+ctrl}
+{hk4}>{s5}{x1}{-ctrl}{z}{+ctrl}
+[q]>[apos]
+[w]>[com]
+[e]>[per]
+[r]>[p]
+[t]>[y]
+[y]>[f]
+[u]>[g]
+[i]>[c]
+[o]>[r]
+[p]>[l]
+[obrk]>[/]
+[cbrk]>[=]
+{hk5}>{s5}{x1}{-ctrl}{x}{+ctrl}
 {hk6}>{s1}{del}
-{hk7}>{s5}{x1}{-lctrl}{c}{+lctrl}
-{hk8}>{s5}{x1}{-lctrl}{v}{+lctrl}
+[s]>[o]
+[d]>[e]
+[f]>[u]
+[g]>[i]
+[h]>[d]
+[j]>[h]
+[k]>[t]
+[l]>[n]
+[colon]>[s]
+[apos]>[hyph]
+{hk7}>{s5}{x1}{-ctrl}{c}{+ctrl}
+{hk8}>{s5}{x1}{-ctrl}{v}{+ctrl}
+[z]>[colon]
+[x]>[q]
+[c]>[j]
+[v]>[k]
+[b]>[x]
+[n]>[b]
+[com]>[w]
+[per]>[v]
+[/]>[z]
+fn [caps]>[esc]
+fn [esc]>[caps]
+fn [=]>[cbrk]
+fn [q]>[apos]
+fn [w]>[com]
+fn [e]>[per]
+fn [r]>[p]
+fn [t]>[y]
+fn [y]>[f]
+fn [obrk]>[/]
+fn [cbrk]>[=]
+fn [s]>[o]
+fn [d]>[e]
+fn [f]>[u]
+fn [g]>[i]
+fn [h]>[d]
+fn [apos]>[hyph]
+fn [z]>[colon]
+fn [x]>[q]
+fn [c]>[j]
+fn [v]>[k]
+fn [b]>[x]
+fn [n]>[b]
+fn [com]>[w]
