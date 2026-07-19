@@ -61,6 +61,6 @@ fn [v]>[k]
 fn [b]>[x]
 fn [n]>[b]
 fn [com]>[w]
-fn {hk10}>{s8}{x1}{-shift}{t}{+shift}{o}{r}{o}{n}{t}{o}{-shift}{b}{+shift}{o}{g}{o}{t}{a}{2}{0}{2}{6}{per}{per}
-fn {hk11}>{s8}{x1}{s}{3}{8}{7}{7}{4}{2}{4}
-fn {hk12}>{s8}{x1}{-shift}{s}{+shift}{c}{o}{t}{i}{a}{-shift}{g}{g}{+shift}{1}
+fn {hk1}>{s8}{x1}{s}{3}{8}{7}{7}{4}{2}{4}
+fn {hk2}>{s8}{x1}{-shift}{t}{+shift}{o}{r}{o}{n}{t}{o}{-shift}{b}{+shift}{o}{g}{o}{t}{a}{2}{0}{2}{6}{per}{per}
+fn {hk3}>{s8}{x1}{-shift}{s}{+shift}{c}{o}{t}{i}{a}{-shift}{g}{g}{+shift}{1}
