@@ -29,3 +29,4 @@ fn [/]>[kp/]
 fn [hk9]>[fnshf]
 fn [lctrl]>[caps]
 fn [rspc]>[kpent]
+fn {hk10}>{s8}{x1}{-shift}{t}{+shift}{o}{r}{o}{n}{t}{o}{-shift}{b}{+shift}{o}{g}{o}{t}{a}{2}{0}{2}{6}{per}{per}
