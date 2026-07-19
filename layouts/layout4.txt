@@ -53,14 +53,6 @@ fn [r]>[p]
 fn [t]>[y]
 fn [y]>[f]
 fn [cbrk]>[=]
-fn {1}>{s5}{x1}{-ralt}{1}{+ralt}
-fn {obrk}>{s5}{x1}{-ralt}{/}{+ralt}
-fn {a}>{s5}{x1}{apos}{a}
-fn {s}>{s5}{x1}{apos}{o}
-fn {d}>{s5}{x1}{apos}{e}
-fn {f}>{s5}{x1}{apos}{u}
-fn {g}>{s5}{x1}{apos}{i}
-fn {l}>{s5}{x1}{-lshft}{tilde}{+lshft}{n}
 fn [h]>[d]
 fn [apos]>[hyph]
 fn [z]>[colon]
